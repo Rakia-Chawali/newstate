@@ -5,9 +5,24 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(purple, yellow);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+img{
+  width: 300px;
+}
+#grad {
+  background-image: linear-gradient(red, yellow);
+}
+button{
+   width: 30%;
+  height: 30px;
+   margin-top: 5%;
+   background-color: #B7CD40;
+            border: none;
+            border-radius: 30px;
 }
